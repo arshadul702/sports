@@ -1,1 +1,301 @@
-
+#EXTM3U
+#EXTINF:-1 tvg-id='Sports-1' tvg-name='Sports 1',Live Sports 1
+https://rightsboosterltd-scl-1-be.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-2' tvg-name='Sports 2',Live Sports 2
+https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id='Sports-3' tvg-name='Sports 3',Live Sports 3
+https://panel.streamingmedia.com.co:3557/stream/play.m3u8
+#EXTINF:-1 tvg-id='Sports-4' tvg-name='Sports 4',Live Sports 4
+https://balkanmedia.dynu.net/hls/tv5web.m3u8
+#EXTINF:-1 tvg-id='Sports-5' tvg-name='Sports 5',Live Sports 5
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8
+#EXTINF:-1 tvg-id='Sports-6' tvg-name='Sports 6',Live Sports 6
+https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8?organizationId=83459409&suiteItemId=83459780
+#EXTINF:-1 tvg-id='Sports-7' tvg-name='Sports 7',Live Sports 7
+https://livestar.siliconweb.com/starvod/star4/star4.m3u8
+#EXTINF:-1 tvg-id='Sports-8' tvg-name='Sports 8',Live Sports 8
+https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-9' tvg-name='Sports 9',Live Sports 9
+https://oracle.streaminghd.cl/8126/8126/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-10' tvg-name='Sports 10',Live Sports 10
+https://tvd-piter.fluid.stream/RadioPiterpanTV/livestream/chunklist_w1866496033.m3u8
+#EXTINF:-1 tvg-id='Sports-11' tvg-name='Sports 11',Live Sports 11
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-12' tvg-name='Sports 12',Live Sports 12
+https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-13' tvg-name='Sports 13',Live Sports 13
+https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
+#EXTINF:-1 tvg-id='Sports-14' tvg-name='Sports 14',Live Sports 14
+https://lotus.stingray.com/manifest/ose-214ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id='Sports-15' tvg-name='Sports 15',Live Sports 15
+https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
+#EXTINF:-1 tvg-id='Sports-16' tvg-name='Sports 16',Live Sports 16
+http://stucazz.com:8888/hls/cronache.m3u8
+#EXTINF:-1 tvg-id='Sports-17' tvg-name='Sports 17',Live Sports 17
+http://cdnua05.hls.tv/647/hls/f62d71219200da4130d13b21d23fb23c/4789/stream.m3u8
+#EXTINF:-1 tvg-id='Sports-18' tvg-name='Sports 18',Live Sports 18
+https://www.youtube.com/c/franceinfo/live
+#EXTINF:-1 tvg-id='Sports-19' tvg-name='Sports 19',Live Sports 19
+https://lds-donttellbride-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-20' tvg-name='Sports 20',Live Sports 20
+https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-21' tvg-name='Sports 21',Live Sports 21
+https://cdn12.henico.net:8443/live/ssct/index.m3u8
+#EXTINF:-1 tvg-id='Sports-22' tvg-name='Sports 22',Live Sports 22
+https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/ln/ln.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-23' tvg-name='Sports 23',Live Sports 23
+https://yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8
+#EXTINF:-1 tvg-id='Sports-24' tvg-name='Sports 24',Live Sports 24
+http://88.212.15.19/live/test_history/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-25' tvg-name='Sports 25',Live Sports 25
+https://lifetv.bitflip.ee/live/stream2.m3u8
+#EXTINF:-1 tvg-id='Sports-26' tvg-name='Sports 26',Live Sports 26
+https://5cf4a2c2512a2.streamlock.net/tvmaismarica/tvmaismarica/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-27' tvg-name='Sports 27',Live Sports 27
+http://tv.ulagos.cl/web/live.m3u8
+#EXTINF:-1 tvg-id='Sports-28' tvg-name='Sports 28',Live Sports 28
+https://0ff9dd7fe9b64bc08a5fc4ed525454c3.msvdn.net/live/S38994111/B7j0ql4XaZtE/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-29' tvg-name='Sports 29',Live Sports 29
+http://181.78.14.26:4000/play/a07m/index.m3u8
+#EXTINF:-1 tvg-id='Sports-30' tvg-name='Sports 30',Live Sports 30
+https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-31' tvg-name='Sports 31',Live Sports 31
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id='Sports-32' tvg-name='Sports 32',Live Sports 32
+https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-33' tvg-name='Sports 33',Live Sports 33
+https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-34' tvg-name='Sports 34',Live Sports 34
+https://stream.audioxi.com/SP
+#EXTINF:-1 tvg-id='Sports-35' tvg-name='Sports 35',Live Sports 35
+https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
+#EXTINF:-1 tvg-id='Sports-36' tvg-name='Sports 36',Live Sports 36
+https://jireh-8-hls-video-us-isp.dps.live/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/metropolitanatv/metropolitanatv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-37' tvg-name='Sports 37',Live Sports 37
+https://stmv1.srvif.com/tvcidade/tvcidade/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-38' tvg-name='Sports 38',Live Sports 38
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-39' tvg-name='Sports 39',Live Sports 39
+https://www.youtube.com/c/LaNacionMas/live
+#EXTINF:-1 tvg-id='Sports-40' tvg-name='Sports 40',Live Sports 40
+https://stream.berosat.live:19360/rlpro-tv/rlpro-tv.m3u8
+#EXTINF:-1 tvg-id='Sports-41' tvg-name='Sports 41',Live Sports 41
+https://app.tvufop.com.br/hls/tvufop.m3u8
+#EXTINF:-1 tvg-id='Sports-42' tvg-name='Sports 42',Live Sports 42
+https://tv.picta.cu/cubavision/cubavision_0.m3u8
+#EXTINF:-1 tvg-id='Sports-43' tvg-name='Sports 43',Live Sports 43
+http://131.221.41.94/hls/canal2.m3u8
+#EXTINF:-1 tvg-id='Sports-44' tvg-name='Sports 44',Live Sports 44
+https://air.star.lv/TV_Jurmala_multistream/index.m3u8
+#EXTINF:-1 tvg-id='Sports-45' tvg-name='Sports 45',Live Sports 45
+https://failarmy-international-fi.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-46' tvg-name='Sports 46',Live Sports 46
+https://diretta.arcapuglia.it:8080/live/easytv/index.m3u8
+#EXTINF:-1 tvg-id='Sports-47' tvg-name='Sports 47',Live Sports 47
+https://nl1.nghk.ai/ArenaSport1BH/index.m3u8
+#EXTINF:-1 tvg-id='Sports-48' tvg-name='Sports 48',Live Sports 48
+https://cdn8.streamshow.it/cloud-tvrs/tvrs/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-49' tvg-name='Sports 49',Live Sports 49
+https://rcavlive.akamaized.net/hls/live/696615/xcancbft/master.m3u8
+#EXTINF:-1 tvg-id='Sports-50' tvg-name='Sports 50',Live Sports 50
+https://5857499ee635b.streamlock.net/radiowesertv-live/mp4:livestreamTV/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-51' tvg-name='Sports 51',Live Sports 51
+http://138.121.15.230:9002/CITY-TV/index.m3u8
+#EXTINF:-1 tvg-id='Sports-52' tvg-name='Sports 52',Live Sports 52
+https://stream8.cinerama.uz/1455/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id='Sports-53' tvg-name='Sports 53',Live Sports 53
+https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-54' tvg-name='Sports 54',Live Sports 54
+https://stream01.welocal.stream/stream/fhd-allgaeutv_25679/ngrp:stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-55' tvg-name='Sports 55',Live Sports 55
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 tvg-id='Sports-56' tvg-name='Sports 56',Live Sports 56
+https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-57' tvg-name='Sports 57',Live Sports 57
+https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
+#EXTINF:-1 tvg-id='Sports-58' tvg-name='Sports 58',Live Sports 58
+https://cdn.icu.de/rtplive/smil:btvsued.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-59' tvg-name='Sports 59',Live Sports 59
+https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-60' tvg-name='Sports 60',Live Sports 60
+https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-61' tvg-name='Sports 61',Live Sports 61
+https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-62' tvg-name='Sports 62',Live Sports 62
+https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-63' tvg-name='Sports 63',Live Sports 63
+https://hls.vantagetv.co.uk/vmusicuk_stream/index.m3u8
+#EXTINF:-1 tvg-id='Sports-64' tvg-name='Sports 64',Live Sports 64
+https://tv.arkeo.cl:1936/canalrtv/canalrtv/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-65' tvg-name='Sports 65',Live Sports 65
+https://streamcdng14-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S82929343/cAcsSu4Wecc5/chunklist_b5256000.m3u8
+#EXTINF:-1 tvg-id='Sports-66' tvg-name='Sports 66',Live Sports 66
+https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-67' tvg-name='Sports 67',Live Sports 67
+http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8
+#EXTINF:-1 tvg-id='Sports-68' tvg-name='Sports 68',Live Sports 68
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-tokyomx-cmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-69' tvg-name='Sports 69',Live Sports 69
+https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-70' tvg-name='Sports 70',Live Sports 70
+https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
+#EXTINF:-1 tvg-id='Sports-71' tvg-name='Sports 71',Live Sports 71
+https://iptv.sohailtv.com/sohail/playlist/index.m3u8
+#EXTINF:-1 tvg-id='Sports-72' tvg-name='Sports 72',Live Sports 72
+https://saarland2.iptv-playoutcenter.de/saarland2/saarland2.stream_2/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-73' tvg-name='Sports 73',Live Sports 73
+https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/3/3.m3u8
+#EXTINF:-1 tvg-id='Sports-74' tvg-name='Sports 74',Live Sports 74
+http://live.mariatvcdn.com/dialogos/171e41deedf405f10c7dd6311387fb43.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-75' tvg-name='Sports 75',Live Sports 75
+https://srvx1.selftv.video/cafe/live/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-76' tvg-name='Sports 76',Live Sports 76
+https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8
+#EXTINF:-1 tvg-id='Sports-77' tvg-name='Sports 77',Live Sports 77
+https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-78' tvg-name='Sports 78',Live Sports 78
+https://stream.ets-sistemi.it:8081/rticalabria/index.m3u8
+#EXTINF:-1 tvg-id='Sports-79' tvg-name='Sports 79',Live Sports 79
+https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8
+#EXTINF:-1 tvg-id='Sports-80' tvg-name='Sports 80',Live Sports 80
+https://cloud6.livescast.com:3900/live/tevecolombialive.m3u8
+#EXTINF:-1 tvg-id='Sports-81' tvg-name='Sports 81',Live Sports 81
+https://5926fc9c7c5b2.streamlock.net/9040/9040/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-82' tvg-name='Sports 82',Live Sports 82
+https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id='Sports-83' tvg-name='Sports 83',Live Sports 83
+https://wdrlokalzeit.akamaized.net/hls/live/2018020-b/wdrlz_siegen/master.m3u8
+#EXTINF:-1 tvg-id='Sports-84' tvg-name='Sports 84',Live Sports 84
+https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-85' tvg-name='Sports 85',Live Sports 85
+http://88.212.15.19/live/prima_love_avc_25p/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-86' tvg-name='Sports 86',Live Sports 86
+https://stmv1.srvif.com/classique/classique/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-87' tvg-name='Sports 87',Live Sports 87
+https://player.smotrim.ru/iframe/stream/live_id/63251
+#EXTINF:-1 tvg-id='Sports-88' tvg-name='Sports 88',Live Sports 88
+https://amagi-streams.akamaized.net/hls/live/2113391/cbcheartland/master.m3u8
+#EXTINF:-1 tvg-id='Sports-89' tvg-name='Sports 89',Live Sports 89
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id='Sports-90' tvg-name='Sports 90',Live Sports 90
+https://v2.tustreaming.cl/enlacebpbtv/index.m3u8
+#EXTINF:-1 tvg-id='Sports-91' tvg-name='Sports 91',Live Sports 91
+https://5ff3d9babae13.streamlock.net/aufymdjpjf/aufymdjpjf/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-92' tvg-name='Sports 92',Live Sports 92
+https://unlimited1-us.dps.live/holvoettv/holvoettv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-93' tvg-name='Sports 93',Live Sports 93
+https://eu1.servers10.com:8081/8072/index.m3u8
+#EXTINF:-1 tvg-id='Sports-94' tvg-name='Sports 94',Live Sports 94
+https://5ff3d9babae13.streamlock.net/wympnqeqts/wympnqeqts/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-95' tvg-name='Sports 95',Live Sports 95
+https://5f22d76e220e1.streamlock.net/sicilia24/sicilia24/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-96' tvg-name='Sports 96',Live Sports 96
+https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-97' tvg-name='Sports 97',Live Sports 97
+https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8
+#EXTINF:-1 tvg-id='Sports-98' tvg-name='Sports 98',Live Sports 98
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id='Sports-99' tvg-name='Sports 99',Live Sports 99
+https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-100' tvg-name='Sports 100',Live Sports 100
+https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-101' tvg-name='Sports 101',Live Sports 101
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-102' tvg-name='Sports 102',Live Sports 102
+https://besttv.siliconweb.com/bestTV/live_abr/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-103' tvg-name='Sports 103',Live Sports 103
+https://live02-seg.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id='Sports-104' tvg-name='Sports 104',Live Sports 104
+https://streamyes.alsolnet.com/maquiradio/live/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-105' tvg-name='Sports 105',Live Sports 105
+https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-106' tvg-name='Sports 106',Live Sports 106
+https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-107' tvg-name='Sports 107',Live Sports 107
+https://cloud.streamingconnect.tv/hls/rasdtv2/rasdtv.m3u8
+#EXTINF:-1 tvg-id='Sports-108' tvg-name='Sports 108',Live Sports 108
+https://unlimited1-us.dps.live/tvr/tvr.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-109' tvg-name='Sports 109',Live Sports 109
+https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/mcj-tv-shop.m3u8
+#EXTINF:-1 tvg-id='Sports-110' tvg-name='Sports 110',Live Sports 110
+https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8
+#EXTINF:-1 tvg-id='Sports-111' tvg-name='Sports 111',Live Sports 111
+https://h058.video-stream-hosting.de/ev1tv-live/_definst_/mp4:stream1.stream/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-112' tvg-name='Sports 112',Live Sports 112
+https://57068da1deb21.streamlock.net/teletv8/teletv8/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-113' tvg-name='Sports 113',Live Sports 113
+https://video01.logicahost.com.br/tvalianca/tvalianca/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-114' tvg-name='Sports 114',Live Sports 114
+https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-115' tvg-name='Sports 115',Live Sports 115
+https://v1.tustreaming.cl/tv5linares/index.m3u8
+#EXTINF:-1 tvg-id='Sports-116' tvg-name='Sports 116',Live Sports 116
+https://d1axml5ozykh3g.cloudfront.net/live/omroepwest/tv/index.m3u8
+#EXTINF:-1 tvg-id='Sports-117' tvg-name='Sports 117',Live Sports 117
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
+#EXTINF:-1 tvg-id='Sports-118' tvg-name='Sports 118',Live Sports 118
+https://64b16f23efbee.streamlock.net/telecitylombardia/telecitylombardia/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-119' tvg-name='Sports 119',Live Sports 119
+https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-120' tvg-name='Sports 120',Live Sports 120
+https://dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/e1ccc6aa/index.m3u8
+#EXTINF:-1 tvg-id='Sports-121' tvg-name='Sports 121',Live Sports 121
+https://rst.saiuzwebnetwork.it:8081/teleischia/index.m3u8
+#EXTINF:-1 tvg-id='Sports-122' tvg-name='Sports 122',Live Sports 122
+http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-123' tvg-name='Sports 123',Live Sports 123
+https://onechannel.siliconweb.com/one/stream/chunks_dvr.m3u8
+#EXTINF:-1 tvg-id='Sports-124' tvg-name='Sports 124',Live Sports 124
+https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-125' tvg-name='Sports 125',Live Sports 125
+http://193.111.198.85:8589/stream/mstv/rtbflatroislive26/master.m3u8?u=Oleg&p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d
+#EXTINF:-1 tvg-id='Sports-126' tvg-name='Sports 126',Live Sports 126
+https://5e85d90130e77.streamlock.net/6020/6020/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-127' tvg-name='Sports 127',Live Sports 127
+https://signal.suyaitv.cl/live/35/playlist.m3u8?password=9PcdCnFxUe&username=ZZDemoIPTVGH
+#EXTINF:-1 tvg-id='Sports-128' tvg-name='Sports 128',Live Sports 128
+https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-129' tvg-name='Sports 129',Live Sports 129
+http://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8
+#EXTINF:-1 tvg-id='Sports-130' tvg-name='Sports 130',Live Sports 130
+https://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv/index.m3u8
+#EXTINF:-1 tvg-id='Sports-131' tvg-name='Sports 131',Live Sports 131
+https://vod.tv7.fi/tv7-se/_definst_/smil:tv7-se.smil/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-132' tvg-name='Sports 132',Live Sports 132
+https://5fc584f3f19c9.streamlock.net/cristovision/videocristovision/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-133' tvg-name='Sports 133',Live Sports 133
+https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8
+#EXTINF:-1 tvg-id='Sports-134' tvg-name='Sports 134',Live Sports 134
+https://senato-live.morescreens.com/SENATO_1_001/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-135' tvg-name='Sports 135',Live Sports 135
+https://mechtvltd-mechplus-1-fi.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-136' tvg-name='Sports 136',Live Sports 136
+https://648026e87a75e.streamlock.net/rmktv/rmktv/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-137' tvg-name='Sports 137',Live Sports 137
+https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8
+#EXTINF:-1 tvg-id='Sports-138' tvg-name='Sports 138',Live Sports 138
+http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/chunks.m3u8
+#EXTINF:-1 tvg-id='Sports-139' tvg-name='Sports 139',Live Sports 139
+https://www.youtube.com/@LtvuSeTube/live
+#EXTINF:-1 tvg-id='Sports-140' tvg-name='Sports 140',Live Sports 140
+https://www.youtube.com/channel/UC4K_LI-Tn3-LshNgG0-YypQ/live
+#EXTINF:-1 tvg-id='Sports-141' tvg-name='Sports 141',Live Sports 141
+https://canaleducacao-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id='Sports-142' tvg-name='Sports 142',Live Sports 142
+https://h055.video-stream-hosting.de/filstalwelle-live/_definst_/mp4:livestream/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-143' tvg-name='Sports 143',Live Sports 143
+http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-144' tvg-name='Sports 144',Live Sports 144
+https://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-145' tvg-name='Sports 145',Live Sports 145
+https://cdn-5.nxplay.com.br/GLOBO_SP_TK/index.m3u8
+#EXTINF:-1 tvg-id='Sports-146' tvg-name='Sports 146',Live Sports 146
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
+#EXTINF:-1 tvg-id='Sports-147' tvg-name='Sports 147',Live Sports 147
+https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8
+#EXTINF:-1 tvg-id='Sports-148' tvg-name='Sports 148',Live Sports 148
+https://www.starcat.co.jp/ch/upload/channel/69/jsports1_logo.jpg
+#EXTINF:-1 tvg-id='Sports-149' tvg-name='Sports 149',Live Sports 149
+http://sb.err.ee/live/etv.m3u8
+#EXTINF:-1 tvg-id='Sports-150' tvg-name='Sports 150',Live Sports 150
+http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
