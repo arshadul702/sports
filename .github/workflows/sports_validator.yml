@@ -1,8 +1,8 @@
-name: Global Sports Scraper and Unique Validator
+name: BD tv
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # Runs every 2 hours
+    - cron: '0 * * * *' # Runs every 1 hours
   workflow_dispatch: # Allows manual trigger
 
 permissions:
@@ -33,9 +33,9 @@ jobs:
       - name: Check file state changes
         id: file_status
         run: |
-          touch sports.m3u8
-          git add sports.m3u8
-          if git diff --cached --quiet sports.m3u8; then
+          touch playlists.m3u8
+          git add playlists.m3u8
+          if git diff --cached --quiet playlists.m3u8; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
