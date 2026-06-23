@@ -4,9 +4,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Target URLs: Can be a folder tree, a direct raw file, or main repo URL
 TARGET_SOURCES = [
-    "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
-    "https://raw.githubusercontent.com/imShakil/tvlink/refs/heads/main/all.m3u",
-    "https://raw.githubusercontent.com/ashik4u/mrgify-clean/refs/heads/main/playlist.m3u",
+
+    "https://github.com/abusaeeidx/IPTV-Scraper-Zilla",
 ]
 
 def smart_crawl_github():
