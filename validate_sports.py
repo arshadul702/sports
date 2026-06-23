@@ -4,9 +4,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Target URLs: Can be a folder tree, a direct raw file, or main repo URL
 TARGET_SOURCES = [
-    "https://raw.githubusercontent.com/Free-TV/IPTV/refs/heads/master/playlist.m3u8",
-    "https://github.com/iptv-org/iptv/commit/fb466a2221e6c62b1a9385e10d1bd2c4b17eb698.patch",
-	"https://github.com/iptv-org/iptv/tree/db97f9431e072b3d7e67224103e25148c7ed96ef/streams",
+    "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
+    "https://raw.githubusercontent.com/imShakil/tvlink/refs/heads/main/all.m3u",
+    "https://raw.githubusercontent.com/ashik4u/mrgify-clean/refs/heads/main/playlist.m3u",
 ]
 
 def smart_crawl_github():
@@ -45,82 +45,93 @@ def extract_unique_sports_links():
     all_raw_files = smart_crawl_github()
     print(f"📋 Total parsed raw playlist files to scan: {len(all_raw_files)}")
     
-    raw_links = []
+    # Step 1: Create a raw master list combining ALL data from ALL sources first
+    all_scraped_entries = [] 
+
     for count, file_url in enumerate(all_raw_files):
-        if count >= 40: # Safety cap for files
+        if count >= 40:
             break
         try:
             headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
             response = requests.get(file_url, headers=headers, timeout=10)
             if response.status_code == 200:
-                found_links = re.findall(r'(https?://[^\s"\'\>]+)', response.text)
-                raw_links.extend(found_links)
-        except:
-            pass
+                lines = response.text.splitlines()
+                current_name = "Live Sports"
+                
+                for line in lines:
+                    line = line.strip()
+                    if line.startswith("#EXTINF"):
+                        name_match = line.split(",")[-1]
+                        if name_match:
+                            current_name = name_match.strip()
+                    elif line.startswith("http://") or line.startswith("https://"):
+                        # Append raw uncleaned pair to the master bundle
+                        all_scraped_entries.append((line, current_name))
+                        current_name = "Live Sports"
+        except Exception as e:
+            print(f"Error parsing file {file_url}: {e}")
 
-    filtered_links = []
-    for link in raw_links:
-        clean_url = link.strip().split('#')[0].split('"')[0].split("'")[0]
-        if any(ext in clean_url.lower() for ext in ['.m3u8', '.ts', '.mpd', '/live', '/stream']) or "sports" in clean_url.lower():
-            filtered_links.append(clean_url)
+    print(f"📊 Total raw entries scraped in Master List: {len(all_scraped_entries)}")
 
-    unique_links = list(set(filtered_links))
-    print(f"📊 Total raw streams scraped: {len(raw_links)}")
-    print(f"🎯 Total UNIQUE streams left for verification: {len(unique_links)}")
-    return unique_links
+    # Step 2: Clean parameters, normalize URLs, and enforce STRICT Deduplication
+    unique_channels = {}
+    for raw_url, name in all_scraped_entries:
+        # Strict cleaning: remove linebreaks, trailing spaces, query variables or tokens
+        clean_url = raw_url.strip().split('#')[0].split('?')[0].split('"')[0].split("'")[0].strip()
+        
+        # Lowercase check for extensions to ensure it's a valid live stream
+        url_lower = clean_url.lower()
+        if any(ext in url_lower for ext in ['.m3u8', '.ts', '.mpd', '/live', '/stream']) or "sports" in url_lower:
+            # Using clean_url as key completely guarantees uniqueness across all sources
+            if clean_url not in unique_channels:
+                unique_channels[clean_url] = name
 
-def is_stream_live(url):
+    print(f"🎯 Total strict UNIQUE streams left for verification: {len(unique_channels)}")
+    return unique_channels
+
+def is_stream_live(url, name):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     try:
-        # Fast HEAD request
         response = requests.head(url, headers=headers, timeout=3, allow_redirects=True)
         if response.status_code in [200, 201, 206]:
-            return url, True
+            return url, name, True
     except:
         try:
-            # Fallback strict GET request
             response = requests.get(url, headers=headers, timeout=3, stream=True)
             if response.status_code in [200, 201, 206]:
-                return url, True
+                return url, name, True
         except:
             pass
-    return url, False
+    return url, name, False
 
 def main():
-    unique_sports_urls = extract_unique_sports_links()
+    # Fetching strictly deduplicated unique channel dictionary
+    unique_channels = extract_unique_sports_links()
     valid_streams = []
     
-    # Target capacity for final playlist
-    max_channels = 150 
+    print(f"⚡ Starting high-speed Multi-threaded validation (25 concurrent workers)...")
+    print(f"🔄 Scanning 100% of the deduplicated master list...")
     
-    print(f"⚡ Starting high-speed Multi-threaded validation (20 concurrent workers)...")
-    
-    # Using ThreadPoolExecutor for concurrent network requests
-    with ThreadPoolExecutor(max_workers=20) as executor:
-        # Submit all validation tasks to the pool
-        future_to_url = {executor.submit(is_stream_live, url): url for url in unique_sports_urls}
+    with ThreadPoolExecutor(max_workers=25) as executor:
+        future_to_url = {executor.submit(is_stream_live, url, name): url for url, name in unique_channels.items()}
         
         for future in as_completed(future_to_url):
-            if len(valid_streams) >= max_channels:
-                print(f"Target reached ({max_channels} active lines). Cancelling remaining tasks.")
-                break
-                
             try:
-                url, is_live = future.result()
+                url, name, is_live = future.result()
                 if is_live:
-                    print(f"[LIVE] -> {url}")
-                    valid_streams.append(url)
+                    print(f"[LIVE] -> {name}")
+                    valid_streams.append((url, name))
             except Exception as e:
                 pass
 
-    # Output playlist generation
+    # Output playlist generation (Writes clean results at once)
     if valid_streams:
-        with open("sports.m3u8", "w", encoding="utf-8") as f:
+        with open("playlists.m3u8", "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
-            for i, stream_url in enumerate(valid_streams):
-                f.write(f"#EXTINF:-1 tvg-id='Sports-{i+1}' tvg-name='Sports {i+1}',Live Sports {i+1}\n")
+            for i, (stream_url, channel_name) in enumerate(valid_streams):
+                f.write(f"#EXTINF:-1 tvg-id='Sports-{i+1}' tvg-name='{channel_name}',{channel_name}\n")
                 f.write(f"{stream_url}\n")
-        print(f"✅ Success! sports.m3u8 updated with {len(valid_streams)} clean unique active streams.")
+        print(f"✅ Success! playlists.m3u8 updated with {len(valid_streams)} 100% unique live streams.")
     else:
         print("❌ Script closed. No streams passed active network filters.")
 
